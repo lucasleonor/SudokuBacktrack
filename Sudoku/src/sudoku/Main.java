@@ -103,7 +103,7 @@ public class Main {
             }
             if (possivel == 1 && lin < 10 && col < 10 && sudoku.get(lin, col) == 0) {
                 mudou = true;
-                sudoku.setPermanente(lin, col, n);
+                sudoku.set(lin, col, n);
             }
             possivel = 0;
         }
